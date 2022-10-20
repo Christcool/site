@@ -25,15 +25,10 @@ body{
     font-weight: 600;
 
 }
-a{
-    float: right;
-    
-}
 #banner{
     background-image: linear-gradient(to right, #E0ffff, #E0ffff);
     color: #000000;
-    padding-top: 2%;
-    
+    padding-top: 1%;
 
 }
 .promo-title2{
@@ -43,23 +38,17 @@ a{
     
 
 }
-.thumbnail a caption p{
+.thumbnail a caption{
     text-decoration: none;
-    text-align: left;
-    list-style: none;
 }
 .intern{
     border-top-left-radius: 10%;
     border-color: rgb(41, 10, 180);
     border-style:outset(2px);
 }
-/*.col-md-6 intern{
-    text-decoration: none;
-}*/
 .img-fluid{
     margin-top: 20px;
-}
-.titl{
+}.titl{
     font-size: 20px;
 }
 .promo-title{
@@ -107,11 +96,9 @@ a{
     display: inline-flex;
     padding: 80px;
 }
-
 .liste ul li {
     padding: 0px 80px 0px;
-    
-    text-align: left;
+    text-justify: initial;
 }
 .title::before{
     content: '';
@@ -234,54 +221,11 @@ hr{
     width: 50px;
     height: 50px;
 
-}*.parteners p{
-    text-align: center;
+}
+.pateners {
+    /*display: inline-flex; */
 
 }
-
 .pateners ul{
-    display: inline-block;
     padding: 0px,80px,0px;
-
-}
-.parteners ul li{
-    padding: 100px;
-    display: inline-block;
-
-}
-.pateners ul{
-    display:inline-block;
-
-}
-.part div{
-    display: inline-block;
-    padding: 20px 20px 5px;
-    
-    
-}
-.parteners part meca{
-    padding-bottom: 5px;
-    
-}
-.visit ul{
-    display: inline-flex;
-    list-style-type: none;
- 
-   
-}
-.visit ul li{
-    text-decoration: none;
-
-}
-.visit ul li img{
-    padding: 20px;
-    width: 400px;
-    height: 300px;
-    
-}
-.visit{
-    text-align: center;
-}
-.cate div{
-    display: inline-block;
 }
